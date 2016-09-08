@@ -1,4 +1,4 @@
-FROM melonli/php
+FROM melonli/php:7.0-cli
 
 RUN set -xe && \
     apt-get update && apt-get install -y python-setuptools git unzip \

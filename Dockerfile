@@ -1,4 +1,4 @@
-FROM php
+FROM php:7.0-cli
 RUN set -xe && \
 	apt-get update && apt-get install -y \
         libmcrypt-dev \

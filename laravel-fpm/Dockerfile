@@ -1,4 +1,4 @@
-FROM melonli/php:fpm
+FROM melonli/php:7.0-fpm
 
 RUN set -xe && \
     apt-get update && apt-get install -y git unzip\
